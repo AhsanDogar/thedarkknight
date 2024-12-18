@@ -1,0 +1,70 @@
+/* General page styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url('/image/thedarkknight.jpg');
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* You can adjust this if readability is a concern */
+}
+
+/* Header section styling */
+header {
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+header .tagline {
+    font-size: 2em;
+    font-style: italic;
+}
+
+/* Movie details section */
+section {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Section headers styling */
+section h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #f1c40f;
+}
+
+/* Paragraphs and list styling */
+section p, section ul {
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+
+section ul {
+    list-style-type: square;
+}
+
+/* Blockquote styling */
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #f1c40f;
+    padding-left: 20px;
+    margin-left: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1.2em;
+}
